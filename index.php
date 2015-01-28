@@ -12,6 +12,23 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
+        
+        $y = 2;
+        echo '<p>'.(++$y * 3).' (9)</p>'; // $y += 1;
+        echo '<p>'.($y++ * 3).' (12)</p>'; // $y = $y + 1;
+        echo '<p>'. $y .' (4)</p>';
+        
+        
+        $z = 0;
+        $z++;
+        ++$z;
+        $z += 1;
+        $z = $z + 1;
+        echo '<p>' . $z . '</p>';
+        
+        
+        
+        
         ?>
     </body>
 </html>
