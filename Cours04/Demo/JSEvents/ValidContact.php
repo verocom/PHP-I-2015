@@ -12,6 +12,9 @@ and open the template in the editor.
     <body>
         <h1>Contact!</h1>
         <a href="http://www.google.com" id="aClickMe">Click me!</a>
+        <a href="http://www.yahoo.com" id="aClickMeNomme">Click me (nommé)!</a>
+        
+        
         <script src="valid.js"></script>
     </body>
 </html>

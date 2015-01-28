@@ -7,7 +7,12 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <style>
+            .invalid{
+                border: 3px solid #900;
+            }
+        </style>
+            
     </head>
     <body>
         <?php
@@ -19,6 +24,7 @@ and open the template in the editor.
             <input name="titi" id="titi">
             <input type="submit" value="GO!">
         </form>
+        <script src="jquery-2.1.3.js" type="text/javascript"></script>
         <script src="valid.js"></script>
     </body>
 </html>
