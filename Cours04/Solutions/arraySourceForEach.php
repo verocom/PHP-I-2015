@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Array - Source</title>
+        <title>Array - Source (foreach)</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,12 +20,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="text-center">Array - Source</h1>
+                    <h1 class="text-center">Array - Source (foreach)</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 col-sm-offset-4">
-                    <form action="arrayAffichage.php" method="post">
+                    <form action="arrayAffichageForEach.php" method="post">
                         <div class="form-group">
                             <label for="nom">Nom</label>
                             <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer votre nom">
