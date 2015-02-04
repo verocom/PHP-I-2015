@@ -22,9 +22,7 @@ and open the template in the editor.
         <![endif]-->
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
